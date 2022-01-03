@@ -16,7 +16,7 @@ class _LoginFormValidationState extends State<LoginFormValidation> {
       return "* Required";
     } else if (value.length < 6) {
       return "Password should be atleast 6 characters";
-    } else if (value.length > 15) {
+    } else if (value.length > 10) {
       return "Password should not be greater than 15 characters";
     } else
       return null;
